@@ -1,0 +1,61 @@
+.clear{
+  clear: both;
+}
+article{
+  background-color: #DAD3D2;
+  border-bottom-color: #000;
+}
+
+article .line{
+  margin: 1.3em 0;
+}
+
+footer .line{
+  margin: 2em 0;
+}
+
+.grad {
+    background: #1F2A41; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(right, #1F2A41, #aca5a4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,#1F2A41, #aca5a4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#1F2A41, #aca5a4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(right, #1F2A41, #aca5a4); /* Standard syntax */
+}
+
+nav{
+	background:#1F2A41;
+	padding:0 5px;
+	position:absolute;
+	right:.25em;
+	top:1em;
+
+	border:1px solid #0b0a0a;
+
+	-moz-box-shadow:0 1px 1px #161414;
+	-webkit-box-shadow:0 1px 1px #161414;
+	box-shadow:0 1px 1px #161414;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a,
+nav ul li a:visited{
+	color:#fff;
+	display:block;
+	float:left;
+	font-size:1.25em;
+	font-weight:bold;
+	margin:5px 2px;
+	padding:7px 10px 4px;
+	text-shadow:0 1px 1px #57575d;
+	text-transform:uppercase;
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+	background-color:#DAD3D2;
+  color:#000;
+  font-size: 150%;
+}
