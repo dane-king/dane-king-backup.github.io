@@ -6,14 +6,6 @@ article{
   border-bottom-color: #000;
 }
 
-article .line{
-  margin: 1.3em 0;
-}
-
-footer .line{
-  margin: 2em 0;
-}
-
 .grad {
     background: #1F2A41; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(right, #1F2A41, #aca5a4); /* For Safari 5.1 to 6.0 */
@@ -25,9 +17,6 @@ footer .line{
 nav{
 	background:#1F2A41;
 	padding:0 5px;
-	position:absolute;
-	right:.25em;
-	top:1em;
 
 	border:1px solid #0b0a0a;
 
@@ -42,10 +31,7 @@ nav ul li {
 
 nav ul li a,
 nav ul li a:visited{
-	color:#fff;
-	display:block;
-	float:left;
-	font-size:1.25em;
+	color:#fef;
 	font-weight:bold;
 	margin:5px 2px;
 	padding:7px 10px 4px;
@@ -57,5 +43,4 @@ nav ul li a:hover{
 	text-decoration:none;
 	background-color:#DAD3D2;
   color:#000;
-  font-size: 150%;
 }
