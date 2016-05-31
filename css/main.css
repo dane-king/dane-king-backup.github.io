@@ -1,10 +1,13 @@
 .clear{
   clear: both;
 }
-article{
-  background-color: #DAD3D2;
-  border-bottom-color: #000;
+
+.column{
+  float:left;
+  width:45%;
+  padding:30px;
 }
+
 
 .grad {
     background: #1F2A41; /* For browsers that do not support gradients */
@@ -13,34 +16,31 @@ article{
     background: -moz-linear-gradient(right,#1F2A41, #aca5a4); /* For Firefox 3.6 to 15 */
     background: linear-gradient(right, #1F2A41, #aca5a4); /* Standard syntax */
 }
+.grad::before{
+  content: "";
+}
 
-nav{
+.top_header{
+  padding: 5px 10px 0px;
+}
+
+#contact{
+  clear:both;
+  padding:30px 20px;
+}
+
+footer{
+  padding-left: 20px;
+}
+
+.line{
 	background:#1F2A41;
-	padding:0 5px;
+	padding:10px 0px;
+  margin:10px 0px;
 
 	border:1px solid #0b0a0a;
 
 	-moz-box-shadow:0 1px 1px #161414;
 	-webkit-box-shadow:0 1px 1px #161414;
 	box-shadow:0 1px 1px #161414;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav ul li a,
-nav ul li a:visited{
-	color:#fef;
-	font-weight:bold;
-	margin:5px 2px;
-	padding:7px 10px 4px;
-	text-shadow:0 1px 1px #57575d;
-	text-transform:uppercase;
-}
-
-nav ul li a:hover{
-	text-decoration:none;
-	background-color:#DAD3D2;
-  color:#000;
 }

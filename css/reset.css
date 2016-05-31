@@ -32,6 +32,7 @@ p {
   font-weight: 400;
   line-height: 20px;
   font-size: inherit;
+  padding:5px 0;
 }
 
 /* HTML5 display-role reset for older browsers */
