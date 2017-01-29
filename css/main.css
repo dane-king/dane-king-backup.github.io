@@ -1,46 +1,108 @@
-.clear{
+.clear {
   clear: both;
 }
 
-.column{
-  float:left;
-  width:45%;
-  padding:30px;
+.column {
+  float: left;
+  width: 45%;
+  padding: 30px;
 }
-
 
 .grad {
-    background: #1F2A41; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(right, #1F2A41, #aca5a4); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right,#1F2A41, #aca5a4); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right,#1F2A41, #aca5a4); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(right, #1F2A41, #aca5a4); /* Standard syntax */
+  background: #1F2A41;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right, #1F2A41, #aca5a4);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #1F2A41, #aca5a4);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #1F2A41, #aca5a4);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(right, #1F2A41, #aca5a4);
+  /* Standard syntax */
 }
-.grad::before{
+
+.grad::before {
   content: "";
 }
 
-.top_header{
+.top_header {
   padding: 5px 10px 0px;
 }
 
-#contact{
-  clear:both;
-  padding:30px 20px;
+#contact {
+  clear: both;
+  padding: 30px 20px;
 }
 
-footer{
+footer {
   padding-left: 20px;
 }
 
-.line{
-	background:#1F2A41;
-	padding:10px 0px;
-  margin:10px 0px;
+.line {
+  background: #1F2A41;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  border: 1px solid #0b0a0a;
+  -moz-box-shadow: 0 1px 1px #161414;
+  -webkit-box-shadow: 0 1px 1px #161414;
+  box-shadow: 0 1px 1px #161414;
+}
 
-	border:1px solid #0b0a0a;
+.custom-follow-button {
+  width: 200px;
+  display: inline-flex;
+  margin-left: .1em;
+}
 
-	-moz-box-shadow:0 1px 1px #161414;
-	-webkit-box-shadow:0 1px 1px #161414;
-	box-shadow:0 1px 1px #161414;
+.custom-follow-button a {
+  position: relative;
+  display: inline-block;
+  height: 16px;
+  padding: 2px;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  color: #333;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  font-weight: bold;
+  background-color: #F8F8F8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#DEDEDE));
+  background-image: -moz-linear-gradient(top, #FFF, #DEDEDE);
+  background-image: -o-linear-gradient(top, #FFF, #DEDEDE);
+  background-image: -ms-linear-gradient(top, #FFF, #DEDEDE);
+  border: #CCC solid 1px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.custom-follow-button a:hover {
+  border-color: #BBB;
+  background-color: #F8F8F8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F8F8F8), to(#D9D9D9));
+  background-image: -moz-linear-gradient(top, #F8F8F8, #D9D9D9);
+  background-image: -o-linear-gradient(top, #F8F8F8, #D9D9D9);
+  background-image: -ms-linear-gradient(top, #F8F8F8, #D9D9D9);
+  background-image: linear-gradient(top, #F8F8F8, #D9D9D9);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.custom-follow-button a .btn-icon {
+  position: absolute;
+  width: 16px;
+  height: 13px;
+  top: 50%;
+  left: 3px;
+  margin-top: -6px;
+  background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
+  background-size: 13px;
+}
+
+.custom-follow-button a .btn-text {
+  display: inline-block;
+  padding: 2px 3px 0 20px;
 }
